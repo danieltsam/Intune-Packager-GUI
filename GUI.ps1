@@ -25,19 +25,19 @@ Add-Type -AssemblyName System.Windows.Forms
             <TextBox Name='SetupFolderTextbox' Margin='0,5' AllowDrop='True' Background='#ffffff' BorderBrush='#ccc'/>
             <TextBlock Text='(Drag and drop a folder here)' FontStyle='Italic' FontSize='12' Foreground='Gray'/>
         </StackPanel>
-        <Button Grid.Row='0' Grid.Column='2' Content='Browse...' Margin='5' Name='SetupFolderButton'/>
+        <Button Grid.Row='0' Grid.Column='2' Content='Browse' Margin='5' Name='SetupFolderButton'/>
 
         <Label Grid.Row='1' Grid.Column='0' Content='Setup File:' VerticalAlignment='Center' Margin='0,5'/>
         <TextBox Grid.Row='1' Grid.Column='1' Name='SetupFileTextbox' Margin='0,5' Background='#ffffff' BorderBrush='#ccc'/>
-        <Button Grid.Row='1' Grid.Column='2' Content='Browse...' Margin='5' Name='SetupFileButton'/>
+        <Button Grid.Row='1' Grid.Column='2' Content='Browse' Margin='5' Name='SetupFileButton'/>
 
         <Label Grid.Row='2' Grid.Column='0' Content='Output Folder:' VerticalAlignment='Center' Margin='0,5'/>
         <TextBox Grid.Row='2' Grid.Column='1' Name='OutputFolderTextbox' Margin='0,5' Background='#ffffff' BorderBrush='#ccc'/>
-        <Button Grid.Row='2' Grid.Column='2' Content='Browse...' Margin='5' Name='OutputFolderButton'/>
+        <Button Grid.Row='2' Grid.Column='2' Content='Browse' Margin='5' Name='OutputFolderButton'/>
 
         <Label Grid.Row='3' Grid.Column='0' Content='Catalog Folder (optional):' VerticalAlignment='Center' Margin='0,5'/>
         <TextBox Grid.Row='3' Grid.Column='1' Name='CatalogFolderTextbox' Margin='0,5' Background='#ffffff' BorderBrush='#ccc'/>
-        <Button Grid.Row='3' Grid.Column='2' Content='Browse...' Margin='5' Name='CatalogFolderButton'/>
+        <Button Grid.Row='3' Grid.Column='2' Content='Browse' Margin='5' Name='CatalogFolderButton'/>
 
         <Label Grid.Row='4' Grid.Column='0' Content='Log Output:' VerticalAlignment='Top' Margin='0,5'/>
         <RichTextBox Grid.Row='4' Grid.Column='0' Grid.ColumnSpan='3' Name='LogTextbox' Margin='0,5' Background='#ffffff' BorderBrush='#ccc'/>
